@@ -1,0 +1,39 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0 auto;
+	outline: 0;
+}
+
+body {
+	background-color: #fff;
+	color: #60606e;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	overflow-x: hidden;
+}
+
+a {
+	color: #60606e;
+	transition: all .2s ease-in-out;
+	text-decoration: none;
+}
+
+a:hover, a:focus {
+	color: #60606e;
+	text-decoration: none;
+}
+
+a:hover::after {
+	width: 50%;
+}
+
+li {
+	text-decoration: none;
+	list-style: none;
+}
+
+.container {
+	width: 1350px;
+	margin: 0 auto;
+}
